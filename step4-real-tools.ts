@@ -87,7 +87,7 @@ When you have enough data, provide a final answer with specific numbers and tria
     console.log(`\n--- Step ${step} ---`);
 
     const response = await client.chat.completions.create({
-      model: "Qwen/Qwen2.5-7B-Instruct",
+      model: "",
       messages,
       tools,
       temperature: 0.2,
